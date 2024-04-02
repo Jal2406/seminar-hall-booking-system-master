@@ -48,7 +48,7 @@ const register = async (req, res,next) => {
       return res.status(422).json({ error: "Please enter a valid email address" });
     }
     
-    // const acropolisEmailRegex = /@acropolis\.in$/;
+    const acropolisEmailRegex = /@acropolis\.in$/;
     const acropolisEduEmailRegex = /@charusat\.edu\.in$/;
 
     if (!acropolisEmailRegex.test(email) && !acropolisEduEmailRegex.test(email) ) {
