@@ -1,4 +1,4 @@
-# Seminar Hall Slot Booking System#
+# Seminar Hall Slot Booking System
 A Seminar Hall Slot Booking System built using the MERN stack (MongoDB, Express.js, React, Node.js). 
 This application allows users to efficiently book, manage, and track seminar hall reservations. Key features include user authentication, real-time slot availability updates, booking confirmations, and an admin panel for overseeing all reservations. 
 The system aims to streamline the process of booking seminar halls, providing a user-friendly interface and robust backend support.
