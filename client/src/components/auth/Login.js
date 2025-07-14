@@ -194,7 +194,6 @@ const Login = () => {
 
             <div className="my-4">
               <p className="text-s text-red-600	 font-bold">
-
                 {authStatus}
               </p>
             </div>
